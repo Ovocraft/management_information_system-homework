@@ -72,7 +72,7 @@
             // 
             this.comboBoxTrain.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxTrain.FormattingEnabled = true;
-            this.comboBoxTrain.Location = new System.Drawing.Point(335, 25);
+            this.comboBoxTrain.Location = new System.Drawing.Point(335, 41);
             this.comboBoxTrain.Name = "comboBoxTrain";
             this.comboBoxTrain.Size = new System.Drawing.Size(226, 23);
             this.comboBoxTrain.TabIndex = 0;
@@ -81,7 +81,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(119, 28);
+            this.label1.Location = new System.Drawing.Point(119, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 20);
             this.label1.TabIndex = 1;
@@ -89,7 +89,7 @@
             // 
             // textBoxDeparture
             // 
-            this.textBoxDeparture.Location = new System.Drawing.Point(335, 75);
+            this.textBoxDeparture.Location = new System.Drawing.Point(335, 81);
             this.textBoxDeparture.Name = "textBoxDeparture";
             this.textBoxDeparture.Size = new System.Drawing.Size(154, 25);
             this.textBoxDeparture.TabIndex = 2;
@@ -112,7 +112,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(119, 80);
+            this.label2.Location = new System.Drawing.Point(119, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(129, 20);
             this.label2.TabIndex = 5;
@@ -170,7 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(663, 470);
             this.Controls.Add(this.destination);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonSave);

@@ -15,7 +15,7 @@ namespace 大作业
 {
     public partial class 全部数据 : Form
     {
-        private string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"F:\\project\\c_plus project_vs\\大作业\\db.mdf\";Integrated Security=True";
+        private string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\db.mdf;Integrated Security=True";
         public 全部数据()
         {
             InitializeComponent();
@@ -45,6 +45,16 @@ namespace 大作业
                 }
             }
             dataGridView1.DataSource = table;
+        }
+
+        private void 全部数据_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 退出_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
